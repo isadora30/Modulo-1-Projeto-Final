@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho-imagem-1 {
+    height: 85px;
+}
+
+.cabecalho-frase-2 {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+.meiodapagina {
+    margin-bottom: 10px;
+    border-top: 0.5px solid rgb(22, 19, 19);
+}
+
+.mp-secao-instrucoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mp-divisao-instrucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mp-frase-h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+}
+
+.mp-frase-h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black; 
+}
+
+.mp-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.mp-botao-franqueza {
+    background-color: rgb(25, 25, 32);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.mp-botao-franqueza:hover {
+    background-color: rgb(70, 72, 85);
+}
+
+.mp-botao-abnegacao {
+    background-color: rgb(25, 25, 32);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black; 
+
+}
+
+.mp-botao-abnegacao:hover {
+    background-color: rgb(70, 72, 85);
+}
+
+.mp-botao-audacia {
+    background-color: rgb(25, 25, 32);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.mp-botao-audacia:hover {
+    background-color: rgb(70, 72, 85);
+}
+
+.mp-imagem-personagens {
+    height: 400px;
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape-frase-1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
