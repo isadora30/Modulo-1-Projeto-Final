@@ -1,25 +1,49 @@
-let sequenciaRespostas = [
-    ["3", "2", "2"], // Facção Franqueza
-    ["1", "3", "1"], // Facção Abnegação
-    ["2", "1", "3"]  // Facção Audácia
-]
+//INDEX
 
-function faccoes(personagem) {
-    if (personagem === "Franqueza") {
-        return 0
-    }
-    if (personagem === "Abnegacao") {
-        return 1
-    }
-    if (personagem === "Audacia") {
-        return 2
-    }
+//PERGUNTA1
+totalAbnegacao, totalAudacia, totalFranqueza
+if (resposta === 3) {
+totalFranqueza++
+} else if (resposta === 2) {
+totalAudacia++
+}
+else if (resposta === 1) {
+totalAbnegacao++
+}
+else {
+resposta = prompt ("Responda.")
 }
 
-function responder(fase, personagem) {
-    let resposta = prompt("Digite a resposta certa")
+//PERGUNTA2
+totalAbnegacao, totalAudacia, totalFranqueza
+if (resposta === 3) {
+totalFranqueza++
+} else if (resposta === 2) {
+totalAudacia++
+}
+else if (resposta === 1) {
+totalAbnegacao++
+}
+else {
+resposta = prompt ("Responda.")
+}
 
-    while (resposta !== '1' && resposta !== '2' && resposta !== '3') {
-        alert("Resposta invalida!)
-        resposta = prompt("Digite a resposta correta:")
-    }
+//PERGUNTA3
+totalAbnegacao, totalAudacia, totalFranqueza
+if (resposta === 3) {
+totalFranqueza++
+} else if (resposta === 2) {
+totalAudacia++
+}
+else if (resposta === 1) {
+totalAbnegacao++
+}
+else {
+resposta = prompt ("Responda.")
+}
+
+//RESULTADO
+//Mostrar a soma de pontos para afinidade com cada Personagem(Facção)
+/*Exemplo: Abnegação= 3 pontos
+            Audácia= 0 pontos
+            Franqueza= 0 pontos
